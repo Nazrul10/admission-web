@@ -1,4 +1,4 @@
-h1{
+.top-text{
     padding: 2rem;
 }
 li{
@@ -8,4 +8,7 @@ li{
 }
 .headers{
     font-size: 3rem;
+}
+.text-left{
+    text-align: left;
 }

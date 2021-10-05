@@ -55,12 +55,13 @@ h1,p{
 }
 
 .social-icons {
-    display: inline-flex
+    display: inline-flex;
 }
 
 .social-icons li {
     padding: 10px;
-    list-style: none
+    list-style: none;
+    font-size: 2rem;
 }
 
 .search {

@@ -1,3 +1,4 @@
+import { MDBIcon } from 'mdbreact';
 import React from 'react';
 import './Footer.css'
 const Footer = () => {
@@ -11,7 +12,7 @@ const Footer = () => {
                     <div className="border-bottom">
                         <div className="row p-4">
                             <div className="col-md-3">
-                                <h1>About</h1>
+                                <h1 className="text-center">About</h1>
                                 <p>The Strobel Center for Applied Apologetics at CCU focuses on equipping a vast network of Christians who are actively engaged in the marketplace of ideas in local churches and communities</p>
                             </div>
                             <div className="col-md-3">
@@ -81,9 +82,9 @@ const Footer = () => {
                     </div>
                     <div className="social p-4 text-center">
                         <ul className="social-icons">
-                            <li><i className="fa fa-facebook fa-2x text-white"></i></li>
-                            <li><i className="fa fa-linkedin fa-2x text-white"></i></li>
-                            <li><i className="fa fa-google fa-2x text-white"></i></li>
+                            <li><MDBIcon fab icon="facebook" /></li>
+                            <li><MDBIcon fab icon="linkedin" /></li>
+                            <li><MDBIcon fab icon="github" /></li>
                         </ul>
                     </div>
                 </div>
